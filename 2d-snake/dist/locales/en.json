@@ -1,0 +1,15 @@
+{
+  "title": "Snake",
+  "rules": "Avoid your tail. The clock keeps running during pauses. Your score waits for an opponent before the match result is decided.",
+  "manual": "# Controls\nUse **arrow keys** or swipe to turn.\n\n![Snake arena](assets/tutorial-scene.png)\n\n## Scoring\nCollect gold orbs to earn points.",
+  "description": "Guide a growing snake across the arena and collect as many orbs as you can.",
+  "goal": "Earn points by collecting orbs. Avoid your tail and, when wrapping is off, the walls.",
+  "tutorial": [
+    {
+      "text": "Use arrow keys or swipe to turn."
+    },
+    {
+      "text": "Collect the gold orbs before time runs out."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Snake",
+  "rules": "Évitez votre queue. Le temps continue pendant les pauses. Le résultat du match attend le score d’un adversaire.",
+  "manual": "# Commandes\nUtilisez les **flèches** ou balayez pour tourner.\n\n![Arène Snake](assets/tutorial-scene.png)\n\n## Points\nRamassez les orbes dorés pour gagner des points.",
+  "description": "Dirigez un serpent qui grandit et ramassez autant d’orbes que possible.",
+  "goal": "Gagnez des points en ramassant des orbes. Évitez votre queue et les murs si la traversée est désactivée.",
+  "tutorial": [
+    {
+      "text": "Utilisez les flèches ou balayez l’écran pour tourner."
+    },
+    {
+      "text": "Ramassez les orbes dorés avant la fin du temps."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Sky Runner",
+  "rules": "Une collision ou une chute termine la partie. Les pauses ne prolongent pas le temps. Le résultat attend un adversaire.",
+  "manual": "# Commandes\n- **Gauche / Droite :** changer de voie.\n- **Espace / Haut :** sauter.\n- **Tactile :** balayez pour changer de voie, touchez ou balayez vers le haut pour sauter.\n\n![Piste Sky Runner](assets/tutorial-scene.png)",
+  "description": "Courez sur une piste suspendue, sautez les obstacles et ramassez les cristaux lumineux.",
+  "goal": "Parcourez la plus grande distance et ramassez les cristaux. Sautez les obstacles et restez sur la piste.",
+  "tutorial": [
+    {
+      "text": "Utilisez les flèches gauche et droite pour changer de voie. Appuyez sur Espace ou la flèche haut pour sauter."
+    },
+    {
+      "text": "Sur téléphone, balayez à gauche ou à droite pour changer de voie. Balayez vers le haut ou touchez pour sauter."
+    },
+    {
+      "text": "Ramassez les cristaux pour gagner des points. Une collision ou une chute termine la partie."
+    }
+  ]
+}

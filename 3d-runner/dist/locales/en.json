@@ -1,0 +1,18 @@
+{
+  "title": "Sky Runner",
+  "rules": "A collision or falling ends the run. Pauses do not extend the timer. Match results wait for an opponent.",
+  "manual": "# Controls\n- **Left / Right:** switch lanes.\n- **Space / Up:** jump.\n- **Touch:** swipe to change lanes, tap or swipe up to jump.\n\n![Sky Runner track](assets/tutorial-scene.png)",
+  "description": "Run along a floating skyway, jump over barriers, and collect glowing crystals.",
+  "goal": "Cover the most distance and collect crystals. Jump over obstacles and stay on the platform.",
+  "tutorial": [
+    {
+      "text": "Use the left and right arrows to change lanes. Press Space or Arrow Up to jump."
+    },
+    {
+      "text": "On a phone, swipe left or right to change lanes and swipe up or tap to jump."
+    },
+    {
+      "text": "Collect crystals for extra points. A collision or a fall ends your run."
+    }
+  ]
+}

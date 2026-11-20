@@ -1,0 +1,57 @@
+{
+  "id": "snake-reference",
+  "version": "1.2.1",
+  "apiVersion": 1,
+  "entry": "game.min.js",
+  "renderer": "canvas2d",
+  "engine": {
+    "apiVersion": 1,
+    "minVersion": "1.0.0",
+    "maxVersionExclusive": "2.0.0"
+  },
+  "orientation": "any",
+  "genre": "Arcade",
+  "durationSeconds": 60,
+  "media": {
+    "wide": "media/cover-wide.png",
+    "square": "media/cover-square.png",
+    "logo": "media/logo.png"
+  },
+  "settings": [
+    {
+      "id": "difficulty",
+      "type": "range",
+      "label": "Speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "id": "wrapEdges",
+      "type": "boolean",
+      "label": "Wrap around walls",
+      "default": false
+    },
+    {
+      "id": "theme",
+      "type": "select",
+      "label": "Snake color",
+      "options": [
+        "Aurora",
+        "Midnight",
+        "Ember"
+      ],
+      "default": "Aurora"
+    },
+    {
+      "id": "points",
+      "type": "number",
+      "label": "Points per orb",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "default": 10
+    }
+  ]
+}

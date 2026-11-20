@@ -1,0 +1,57 @@
+{
+  "id": "sky-runner-reference",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "entry": "game.min.js",
+  "renderer": "three",
+  "engine": {
+    "apiVersion": 1,
+    "minVersion": "1.0.0",
+    "maxVersionExclusive": "2.0.0"
+  },
+  "orientation": "any",
+  "genre": "Action",
+  "durationSeconds": 60,
+  "media": {
+    "wide": "media/cover-wide.png",
+    "square": "media/cover-square.png",
+    "logo": "media/logo.png"
+  },
+  "settings": [
+    {
+      "id": "speed",
+      "label": "Running speed",
+      "type": "range",
+      "min": 6,
+      "max": 16,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "id": "obstacles",
+      "label": "Obstacles",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "theme",
+      "label": "Track theme",
+      "type": "select",
+      "options": [
+        "Aurora",
+        "Sunset",
+        "Midnight"
+      ],
+      "default": "Aurora"
+    },
+    {
+      "id": "coinPoints",
+      "label": "Points per crystal",
+      "type": "number",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "default": 20
+    }
+  ]
+}
